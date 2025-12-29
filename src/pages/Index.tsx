@@ -5,7 +5,7 @@ const Index = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    navigate("/camp/dashboard");
+    navigate("/public/dashboard");
   }, [navigate]);
 
   return null;
